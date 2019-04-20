@@ -74,7 +74,7 @@ let g:airline#themes#space#palette.inactive = airline#themes#generate_color_map(
 
 " Cocstatus Section
 let g:airline#themes#space#palette.normal.airline_cocstatus = [
-     \ s:gui07, 'NONE', s:cterm07, 'NONE'
+     \ s:gui05, 'NONE', s:cterm05, 'NONE'
      \ ]
 
 let g:airline#themes#space#palette.insert.airline_cocstatus =
