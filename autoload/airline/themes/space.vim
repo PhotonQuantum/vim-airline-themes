@@ -72,6 +72,20 @@ let s:IA2   = [ s:gui04, 'NONE', s:cterm01, 'NONE' ]
 let s:IA3   = [ s:gui0D, 'NONE', s:cterm01, 'NONE' ]
 let g:airline#themes#space#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 
+" Cocstatus Section
+let g:airline#themes#space#palette.normal.airline_cocstatus = [
+     \ s:gui0A, 'NONE', s:cterm0A, 'NONE'
+     \ ]
+
+let g:airline#themes#space#palette.insert.airline_cocstatus =
+    \ g:airline#themes#space#palette.normal.airline_cocstatus
+
+let g:airline#themes#space#palette.visual.airline_cocstatus =
+    \ g:airline#themes#space#palette.normal.airline_cocstatus
+
+let g:airline#themes#space#palette.replace.airline_cocstatus =
+    \ g:airline#themes#space#palette.normal.airline_cocstatus
+
 " Warning Section
 let g:airline#themes#space#palette.normal.airline_warning = [
      \ s:gui0A, 'NONE', s:cterm0A, 'NONE'
